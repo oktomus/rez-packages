@@ -8,7 +8,6 @@ description = "OpenImageIO"
 
 requires = [
     "boost-1.61.0",
-    "freetype-2.7",
     "openexr-2.2.0",
     "tiff-3.8",
     "png-1.6",
