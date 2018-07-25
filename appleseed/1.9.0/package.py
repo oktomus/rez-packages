@@ -10,7 +10,8 @@ requires = [
     "xercesc-3.1",
     "boost-1.61.0",
     "openexr-2.2.0",
-    "oiio-1.7.15"
+    "oiio-1.7.15",
+    "glu-9.0.0-4"
 ]
 
 tools = [
