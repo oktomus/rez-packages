@@ -1,17 +1,24 @@
 # -*- coding: utf-8 -*-
 
-name = "openexr"
+name = "osl"
 
-version = "2.2.0"
+version = "1.9"
 
-description = "openexr"
+description = "osl"
 
 variants = [['platform-linux', 'arch-x86_64', 'os-Arch-rolling', 'gcc-4.8.5']]
+
+requires = [
+    "clang-5",
+    "libjpeg-6.2"
+]
+
+tools = [
+    "oslc",
+    "oslinfo"
+]
 
 def commands():
     env.LD_LIBRARY_PATH.append("{root}/lib")
     env.PATH.append("{root}/bin")
-
-    if building:
-        env.CMAKE_PREFIX_PATH.append("{root}")
-        
+    env.CMAKE_PREFIX_PATH.append("{root}")
