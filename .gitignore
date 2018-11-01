@@ -3,6 +3,8 @@ lib/
 lib64/
 include/
 bin/
+etc/
+opt/
 share/
 .building*
 *.pyc
