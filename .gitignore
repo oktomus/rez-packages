@@ -6,6 +6,7 @@ bin/
 etc/
 opt/
 share/
+.share/
 .building*
 *.pyc
 *.rxt
